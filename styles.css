@@ -1,0 +1,15 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {background-color:rgb(0, 0, 0); font-family: Courier; font-size: 0.5cm; text-align: center;}
+p {color: white; word-wrap: break-word;}
+h1 {color: white;}
+h2 {color: white;}
+
+/*List with links*/
+.button-list {list-style-type: none; display: flex; justify-content: center; padding: 10px; padding-bottom: 50px;}
+.button-list li {margin: 0 10px;}
+.button-list li a {display: block; padding: 10px 20px;  text-decoration: none;}
+.button-list li a {color: white; background-color: #444; border-radius: 5px; transition: background-color 0.3s;}
+.button-list li a:hover {background-color: #555;}
+.button-list li a:active {background-color: #666;}
+.button-list li a {box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);}
+.button-list li a.active {background-color: #444; font-weight: bold;}
